@@ -83,7 +83,7 @@ export default function Page() {
         "https://images.unsplash.com/photo-1542291026-7eec264c27ff?fit=crop&w=800&h=500",
       // Placeholder image
       link: "https://dfootprint.vercel.app",
-      // github: "https://github.com/chijex5/dfootprint",
+      github: "https://github.com/Goldy042/Footie",
     },
     {
       title: "UniBooks",
