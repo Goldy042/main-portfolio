@@ -48,21 +48,13 @@ export default function Page() {
       icon: "bx bxl-typescript",
       color: "#3178C6",
     },
-    {
-      name: "Docker",
-      icon: "bx bxl-docker",
-      color: "#000000",
-    },
+    
     {
       name: "Tailwind css",
       icon: "bx bxl-tailwind-css",
       color: "#000000",
     },
-    {
-      name: "Postgresql",
-      icon: "bx bxl-postgresql",
-      color: "#000000",
-    },
+   
     {
       name: "Git",
       icon: "bx bxl-git",
@@ -73,7 +65,7 @@ export default function Page() {
     {
       title: "D'Footprint",
       challenge: "Streamline custom footwear orders with real-time admin control",
-      solution: "Built a full-stack platform using Next.js + Flask",
+      solution: "Built a full-stack platform using Next.js + Django",
       tech: [
         "Next.js (ISR)",
         "Tailwind",
@@ -91,7 +83,7 @@ export default function Page() {
         "https://images.unsplash.com/photo-1542291026-7eec264c27ff?fit=crop&w=800&h=500",
       // Placeholder image
       link: "https://dfootprint.vercel.app",
-      github: "https://github.com/chijex5/dfootprint",
+      // github: "https://github.com/chijex5/dfootprint",
     },
     {
       title: "UniBooks",
@@ -108,7 +100,7 @@ export default function Page() {
         "https://images.unsplash.com/photo-1532012197267-da84d127e765?fit=crop&w=800&h=500",
       // Placeholder image
       link: "https://unibooks-3f5h.onrender.com",
-      github: "https://github.com/chijex5/test_public",
+      // github: "https://github.com/chijex5/test_public",
     },
   ];
   const skills = {
@@ -132,22 +124,15 @@ export default function Page() {
         level: 85,
       },
       {
-        name: "Python/Flask",
+        name: "Python/Django",
         level: 80,
       },
-      {
-        name: "PostgreSQL",
-        level: 75,
-      },
+
     ],
     "Tools & DevOps": [
       {
         name: "Git",
         level: 85,
-      },
-      {
-        name: "Docker",
-        level: 70,
       },
       {
         name: "AWS",
@@ -205,7 +190,7 @@ export default function Page() {
               className="text-2xl font-bold text-[#2DD4BF] focus:outline-none focus:ring-2 focus:ring-[#2DD4BF] focus:ring-offset-2 focus:ring-offset-[#2A2A2A] rounded-lg"
               aria-label="Home"
             >
-              Uzodinma Chijioke
+              Iyiegbu Ogechukwu Maryann
             </a>
             <div className="hidden md:flex space-x-8">
               {["About", "Skills", "Projects", "Experience", "Contact"].map(
@@ -414,7 +399,7 @@ export default function Page() {
                 className="flex justify-center space-x-6"
               >
                 <a
-                  href="https://github.com/chijex5"
+                  href="https://github.com/Goldy042"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 hover:text-[#2DD4BF] transition-colors"
@@ -422,7 +407,7 @@ export default function Page() {
                   <Github size={24} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/chijioke-uzodinma-34389b267/"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 hover:text-[#2DD4BF] transition-colors"
@@ -430,7 +415,7 @@ export default function Page() {
                   <Linkedin size={24} />
                 </a>
                 <a
-                  href="mailto:embroconnect3@gmail.com"
+                  href="mailto:iyiebuogechukwu69@gmail.com"
                   className="p-2 hover:text-[#2DD4BF] transition-colors"
                 >
                   <Mail size={24} />
@@ -459,7 +444,7 @@ export default function Page() {
               <div className="relative">
                 <div className="w-full aspect-square rounded-2xl overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&h=800"
+                    src="/me.jpg"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
@@ -490,7 +475,7 @@ export default function Page() {
                       </li>
                       <li className="flex items-center gap-2">
                         <Award size={14} />
-                        <span>Wema Bank Best Intern 2023</span>
+                        <span>Digital Dreams Ict Academy Best Intern 2025</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <Code2 size={14} />
@@ -498,7 +483,7 @@ export default function Page() {
                       </li>
                       <li className="flex items-center gap-2">
                         <BookOpen size={14} />
-                        <span>B.Sc Statistics in Progress</span>
+                        <span>B.Sc Computer/Statistics in Progress</span>
                       </li>
                     </ul>
                   </div>
@@ -743,17 +728,17 @@ export default function Page() {
                       className="flex items-center gap-3 text-gray-400 hover:text-[#2DD4BF]"
                     >
                       <Mail size={20} />
-                      embroconnect3@gmail.com
+                      iyiegbuogechukwu69@gmail.com.com
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/chijioke-uzodinma-34389b267/"
+                      href="#"
                       className="flex items-center gap-3 text-gray-400 hover:text-[#2DD4BF]"
                     >
                       <Linkedin size={20} />
                       LinkedIn Profile
                     </a>
                     <a
-                      href="https://github.com/chijex5"
+                      href="https://github.com/Goldy042"
                       className="flex items-center gap-3 text-gray-400 hover:text-[#2DD4BF]"
                     >
                       <Github size={20} />
