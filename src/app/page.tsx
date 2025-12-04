@@ -82,7 +82,7 @@ export default function Page() {
       image:
         "https://images.unsplash.com/photo-1542291026-7eec264c27ff?fit=crop&w=800&h=500",
       // Placeholder image
-      link: "https://dfootprint.vercel.app",
+      link: "https://footie-gamma.vercel.app",
       github: "https://github.com/Goldy042/Footie",
     },
     {
